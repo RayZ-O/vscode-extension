@@ -1,0 +1,26 @@
+{
+    "name": "cpp.php",
+    "displayName": "cpp.php",
+    "description": "cpp & php colorizer",
+    "version": "0.0.1",
+    "publisher": "Rui",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cpp.php",
+            "aliases": ["cpp.php"],
+            "extensions": [".h.php",".cc.php"],
+            "configuration": "./cpp-php.configuration.json"
+        }],
+        "grammars": [{
+            "language": "cpp.php",
+            "scopeName": "cpp.php",
+            "path": "./syntaxes/cpp-php.json"
+        }]
+    }
+}
