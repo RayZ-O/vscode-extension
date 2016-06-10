@@ -3,7 +3,7 @@
     "displayName": "cpp.php",
     "description": "cpp & php colorizer",
     "version": "0.0.1",
-    "publisher": "Rui",
+    "publisher": "vscode",
     "engines": {
         "vscode": "^1.0.0"
     },
