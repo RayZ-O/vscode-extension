@@ -1,0 +1,15 @@
+{
+	"name": "theme-monokai-cpp-php",
+	"version": "0.1.0",
+	"publisher": "vscode",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai CPP & PHP",
+				"uiTheme": "vs-dark",
+				"path": "./themes/theme-monokai-cpp-php.tmTheme"
+			}
+		]
+	}
+}
